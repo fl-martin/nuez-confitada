@@ -1,52 +1,85 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;600&display=swap");
 
 body {
-    background: #161616;
-    color: #e1e1e1;
-    font-family: 'Inter', sans-serif;
+	min-height: 100vh;
+	margin: 0;
+	background: #161616;
+	color: #e1e1e1;
+	font-family: "Dosis", sans-serif;
 }
 
 .wrapper {
-    max-width: 30em;
-    margin: 0 auto;
-    text-align: center;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	min-height: 100vh;
+}
+
+#background {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	background-color: #161616;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	transition: 2s;
+}
+
+#content {
+	margin: auto;
+	padding: 1.5em;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1em;
+	background-color: rgba(0, 0, 0, 0.7);
+	border-radius: 30px;
 }
 
 img {
-    max-width: 18em;
+	max-width: 15em;
 }
 
 h1 {
-    font-size: .9em;
-    font-weight: 600;
+	font-size: 0.9em;
+	font-weight: 600;
 }
 
 p.wrapper {
-    font-size: .6em;
+	font-size: 0.6em;
 }
 
 .social i {
-    font-size: 1em;
-    color: #e1e1e1;
-    margin: .5em;
+	font-size: 1em;
+	color: #e1e1e1;
+	margin: 0.5em;
 }
 
 .social i:hover {
-    color: #5AFF00;
+	color: #5aff00;
 }
 
 .social {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .about {
-    margin-bottom: 2em;
-    text-align: left;
-    font-weight: 200;
+	text-align: center;
+	font-weight: 200;
+	max-width: 40vw;
 }
 
-i.fas.fa-leaf {
-    color: #5AFF00;
+footer {
+	display: flex;
+	gap: 2em;
+	height: 2em;
+	font-size: small;
+	justify-content: center;
+	align-items: center;
 }
