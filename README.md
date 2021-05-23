@@ -1,3 +1,7 @@
+***
+Fork en el que utilicé la API Pexels para incluir un background de imágenes y apliqué estilos CSS.
+***
+
 # Acuerdo Ambiental
 Instancia de prueba para el programa radial Acuerdo Ambiental emitido desde El Rodeo, Catamarca.
 
